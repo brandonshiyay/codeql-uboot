@@ -1,6 +1,6 @@
 import cpp
 
-from Function f
+from Macro f
 where f.getName().regexpMatch("ntoh(s|l|ll)")
 select f, "ntoh*" 
 
